@@ -318,12 +318,12 @@ margin-top: 20px;
         text-align: center;
     }
     .outer{
-        width: 65%;
+        width: 70%;
         height: 500px;
     }
 
     .inner>input{
-        width: 200px;
+        width: 250px;
     margin-bottom: 20px;
 
 
