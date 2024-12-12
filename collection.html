@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googlepis.com/css2?family=Poppins&display=swap">
+    <!-- my-css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar" id="home">
+        <h1 >Nos<span style="color: rgb(43, 147, 182);">tra</span></h1>
+        
+
+
+
+        <div class="navbar-links">
+
+            <p class="navbar-link"><a href="index.html">Home</a> </p>
+            <p class="navbar-link"><a href="collection.html">Collections</a> </p>
+            <p class="navbar-link"><a href="contact.html">Contact</a> </p>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()"><i class="fa-solid fa-xmark"
+                style="font-size: xx-large;"></i></p>
+
+        <div class="side-navbar-links">
+
+            <p class="side-navbar-link" onclick="closenavbar()"><a href="index.html">Home</a> </p>
+            <p class="side-navbar-link" onclick="closenavbar()"><a href="collection.html">Collections</a> </p>
+            <p class="side-navbar-link" onclick="closenavbar()"><a href="contact.html">Contact</a> </p>
+
+        </div>
+
+
+    </div>
+
+    <!-- product -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+
+            <div class="products-box">
+                <img src="collection/1.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/2.jpg" alt="">
+                <p>Pant</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/3.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/4.jpg" alt="">
+                <p>Pant</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/5.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/6.jpg" alt="">
+                <p>Trouser</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/7.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/8.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/9.jpg" alt="">
+                <p>Shorts</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/10.jpg" alt="">
+                <p>T-shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/11.jpg" alt="">
+                <p>Shirt</p>
+
+            </div>
+            <div class="products-box">
+                <img src="collection/12.jpg" alt="">
+                <p>Shorts</p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- arrow up -->
+
+    <div class="arrow-up">
+        <a href="collection.html"> <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- footer  -->
+
+    <div class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext" style="margin-bottom: 10px;">Nostra</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt impedit rerum eveniet ipsam </p>
+                <div class="footer-icon-container" style="margin-bottom: 8px; ">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <a href="https://www.linkedin.com/in/elamaran-frontend-developer/" target="_blank"> <i
+                            class="fa-brands fa-linkedin" style="color: #ffffff;"> </i> </a>
+                    <a href="https://github.com/elamaran53">
+                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                    </a>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <p>@ 2024 Nostra.com</p>
+    </div>
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
